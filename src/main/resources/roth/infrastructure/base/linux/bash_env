@@ -1,0 +1,26 @@
+# ENVRIONMENT VARIABLES
+
+export JDK="/opt/jdk"
+export JDK_DIST="$JDK/dist"
+export JDK_HOME="$JDK/home"
+export JAVA_HOME="$JDK_HOME/jre"
+export PATH="$JDK_HOME/bin":$PATH
+
+export JETTY="/opt/jetty"
+export JETTY_DIST="$JETTY/dist"
+export JETTY_HOME="$JETTY/home"
+export JETTY_BASE="$JETTY/base"
+export JETTY_LOGS="$JETTY_BASE/log"
+export PATH="$JETTY_HOME/bin":$PATH
+
+export MYSQL="/opt/mysql"
+export MYSQL_DIST="$MYSQL/dist"
+export MYSQL_HOME="$MYSQL/home"
+export MYSQL_BASE="$MYSQL/base"
+export PATH="$MYSQL_HOME/bin":$PATH
+
+export NGINX="/opt/nginx"
+export NGINX_DIST="$NGINX/dist"
+export NGINX_HOME="$NGINX/home"
+export NGINX_BASE="$NGINX/base"
+export PATH="$NGINX_HOME/bin":$PATH

@@ -1,0 +1,7 @@
+openssl req \
+-subj "/C=US/ST=Utah/L=Salt Lake City/O=roth/CN=*.roth.cm" \
+-new \
+-newkey rsa:2048 \
+-nodes \
+-keyout star_roth_cm.key \
+-out star_roth_cm.csr

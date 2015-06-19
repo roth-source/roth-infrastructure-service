@@ -1,0 +1,13 @@
+[Unit]
+Description=MySQL Server
+After=network.target
+
+[Service]
+ExecStart=/opt/mysql/home/bin/mysqld --defaults-file=/opt/mysql/base/conf/my.cnf --user=mysql --basedir=/opt/mysql/home --datadir=/opt/mysql/base/data
+User=mysql
+Group=mysql
+WorkingDirectory=/opt/mysql
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

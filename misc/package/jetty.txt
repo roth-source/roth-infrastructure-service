@@ -1,0 +1,23 @@
+DOWNLOAD
+
+http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-distribution/
+
+
+
+DELETE
+
+license-eplv10-aslv20.html
+notice.html
+README.TXT
+start.ini
+VERSION.txt
+demo-base/*
+logs/*
+resources/*
+webapps/*
+
+
+
+ARCHIVE
+
+tar --exclude=".*" --disable-copyfile -czf jetty-distribution-9.3.0.v20150612.tar.gz jetty-distribution-9.3.0.v20150612

@@ -1,0 +1,19 @@
+openssl req \
+-subj '/CN=*.{{domain}}/O={{domain}/C=US' \
+-new \
+-newkey rsa:2048 \
+-days 36500 \
+-nodes \
+-x509 \
+-keyout {{domain}.key \
+-out {{domain}.crt
+
+openssl req \
+-subj '/CN=*.aptx.cm/O=aptx.cm/C=US' \
+-new \
+-newkey rsa:2048 \
+-days 36500 \
+-nodes \
+-x509 \
+-keyout aptx.cm.key \
+-out aptx.cm.crt

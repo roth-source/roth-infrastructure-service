@@ -1,0 +1,24 @@
+DOWNLOAD
+
+https://downloads.mariadb.org/mariadb-galera/10.0/
+
+
+
+DELETE
+
+COPYING
+COPYING.LESSER
+CREDITS
+EXCEPTIONS-CLIENT
+INSTALL-BINARY
+README
+README-wsrep
+data/*
+mysql-test/*
+support-files/*
+
+
+
+ARCHIVE
+
+tar --exclude=".*" --disable-copyfile -czf mariadb-galera-10.0.19-linux-x86_64.tar.gz mariadb-galera-10.0.19-linux-x86_64

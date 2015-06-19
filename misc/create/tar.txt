@@ -1,0 +1,8 @@
+tar --exclude=".*" --disable-copyfile -czf {{tar}} {{folder}}
+
+tar --exclude=".*" --disable-copyfile -czf jetty-distribution-9.2.10.v20150310.tar.gz jetty-distribution-9.2.10.v20150310
+tar --exclude=".*" --disable-copyfile -czf jdk1.8.0_45.tar.gz jdk1.8.0_45
+
+tar --exclude=".*" --disable-copyfile -czf jetty-distribution-9.3.0.RC1.tar.gz jetty-distribution-9.3.0.RC1
+
+tar --exclude=".*" -czf nginx-1.8.0.tar.gz nginx-1.8.0
